@@ -1,0 +1,26 @@
+The main code is in the PDEClass document. 
+
+In this there are two classes. 
+
+The small one at the bottom is a Phibuild class where 
+the compositional order parameter (phi) is built in
+matrix form with an input matrix size and a 
+initial values(phi0) plus some random noise.
+
+The larger class at the top is where most of the 
+functions needed to complete the first half of the 
+checkpoint are held. This class is simply called 
+PDE.
+
+The free energy is calculated in this class, along 
+with matrix calculations for Phi and Chemical 
+Potential. Plotting functions are in this class along
+with an animation function. 
+
+Data files for a run of 300K timesteps are in this
+in this file and they initial parameters are given in
+the main function. Both plots Phi0=0.0 and Phi0=0.5 
+should be presenent in the file also.
+
+This is not all of the checkpoint but it was all I 
+was able to do given my circumstances.
